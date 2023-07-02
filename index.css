@@ -1,0 +1,60 @@
+/* Homepage */
+.homepage {
+    text-align: center;
+    padding: 50px;
+      
+    background-color: #f2f2f2;
+  }
+  .homepage h1 {
+    font-size: 30px;
+    color: #a12e2e;
+  }
+  .homepage p {
+    font-size: 18px;
+    color: #666;
+  }
+  .btn:hover{
+    background-color:rgb(14, 235, 14);
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .cta-button:hover{
+      background-color:rgb(206, 231, 12)
+  }
+  /* User Login and Register Pages */
+  .login-register {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  .btn{
+    background: color #8f8f8f;;
+    text-align: center;
+    /* border:3px solid red; */
+    border-radius: 30px;
+  }
+  .register{
+    display:inline;
+    /* border:3px solid red; */
+    border-radius: 30px;
+  }
+  .register:hover{
+    color:yellow;
+    background-color:rgb(14, 229, 14);
+  }
+  .login-register h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Additional styles */
+  /* Add additional CSS styles for other sections and features here */
+  

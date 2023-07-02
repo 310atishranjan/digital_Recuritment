@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Candidate list styles */
+  .candidate-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .candidate-list h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  .candidate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .candidate-details {
+    flex: 1;
+  }
+  
+  .candidate-details h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .candidate-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .candidate-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-view,
+  .btn-evaluate {
+    padding: 8px 12px;
+    background-color: #107ce1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect on buttons */
+  .btn-view:hover,
+  .btn-evaluate:hover {
+    opacity: 0.8;
+  }
+  
